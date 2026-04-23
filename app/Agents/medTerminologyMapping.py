@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate
-from ParmacoVigilance.app.llm.llm_client import llm
+from app.llm.llm_client import llm
 from app.llm.prompts import MAPPING_PROMPT
 import json
 import re
