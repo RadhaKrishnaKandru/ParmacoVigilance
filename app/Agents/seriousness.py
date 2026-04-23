@@ -33,7 +33,9 @@ def classify_seriousness(data):
     })
 
     try:
-        cleaned = clean_json(raw_output)
+        # Extract content from AIMessage object
+        raw_text = raw_output.content if hasattr(raw_output, 'content') else str(raw_output)
+        cleaned = clean_json(raw_text)
         result = json.loads(cleaned)
 
         if "label" in result:
