@@ -1,6 +1,6 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
-from app.llm.ollama_cli import llm
+from ParmacoVigilance.app.llm.llm_client import llm
 from app.models.schemas import EntityOutput
 from app.llm.prompts import EXTRACTION_PROMPT
 

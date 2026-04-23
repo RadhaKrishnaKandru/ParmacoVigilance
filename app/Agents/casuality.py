@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate
-from app.llm.ollama_cli import llm
+from app.llm.llm_client import llm
 from app.llm.prompts import CAUSALITY_PROMPT
 import json
 import re

@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate
-from app.llm.ollama_cli import llm
+from ParmacoVigilance.app.llm.llm_client import llm
 from app.llm.prompts import SERIOUSNESS_PROMPT
 import json
 import re

@@ -5,5 +5,5 @@ requests
 pydantic
 
 langchain
-langchain-ollama
+langchain-groq
 python-dotenv
