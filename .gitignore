@@ -1,0 +1,50 @@
+# Virtual Environment
+Parmacovigilance/
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# VS Code
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables (keep .env files secret)
+.env
+.env.local
+.env.*.local
+
+# Streamlit cache & secrets
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE & Editor
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
